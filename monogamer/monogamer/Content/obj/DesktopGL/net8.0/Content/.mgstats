@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/gummy/OneDrive/Desktop/aditional_projects/monogamer/monogamer/Content/ball.png","C:/Users/gummy/OneDrive/Desktop/aditional_projects/monogamer/monogamer/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.2462647
+"C:/Users/gummy/OneDrive/Desktop/aditional_projects/monogamer/monogamer/Content/testFont.spritefont","C:/Users/gummy/OneDrive/Desktop/aditional_projects/monogamer/monogamer/Content/bin/DesktopGL/Content/testFont.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21538,0.2712804
