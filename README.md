@@ -22,4 +22,4 @@ topDownMovementComp movementComp = new topDownMovementComp(5);
 
 ```
 
- these 3 lines of code add a movement component to a sprite class, giving it a speed and making it able to move using arrow keys and wasd.
+only 3 lines of code and your sprite can now move, giving it a speed and making it able to move using arrow keys and wasd!
