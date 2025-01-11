@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 
 namespace monogamer.classes.components
 {
-    public class RectangleCollision
+    public class RectangleCollisionComp
     {
         // Flag to indicate if a collision has occurred
         public bool isCollided = false;

@@ -55,3 +55,4 @@ C:\Users\gummy\OneDrive\Documents\GitHub\Monogamer\monogamer\monogamer\obj\Debug
 C:\Users\gummy\OneDrive\Documents\GitHub\Monogamer\monogamer\monogamer\obj\Debug\net8.0\monogamer.pdb
 C:\Users\gummy\OneDrive\Documents\GitHub\Monogamer\monogamer\monogamer\obj\Debug\net8.0\monogamer.genruntimeconfig.cache
 C:\Users\gummy\OneDrive\Documents\GitHub\Monogamer\monogamer\monogamer\obj\Debug\net8.0\ref\monogamer.dll
+C:\Users\gummy\OneDrive\Documents\GitHub\Monogamer\monogamer\monogamer\bin\Debug\net8.0\Content\ball_spritesheet.xnb

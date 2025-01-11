@@ -4,10 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/gummy/OneDrive/Documents/GitHub/Monogamer/monogamer/monogamer/Content/ball_spritesheet.png</File>
     <File>C:/Users/gummy/OneDrive/Documents/GitHub/Monogamer/monogamer/monogamer/Content/ball.png</File>
     <File>C:/Users/gummy/OneDrive/Documents/GitHub/Monogamer/monogamer/monogamer/Content/testFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
