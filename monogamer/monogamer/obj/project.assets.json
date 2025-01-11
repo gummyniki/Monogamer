@@ -244,11 +244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gummy\\OneDrive\\Desktop\\aditional_projects\\monogamer\\monogamer\\monogamer.csproj",
+      "projectUniqueName": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\monogamer.csproj",
       "projectName": "monogamer",
-      "projectPath": "C:\\Users\\gummy\\OneDrive\\Desktop\\aditional_projects\\monogamer\\monogamer\\monogamer.csproj",
+      "projectPath": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\monogamer.csproj",
       "packagesPath": "C:\\Users\\gummy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gummy\\OneDrive\\Desktop\\aditional_projects\\monogamer\\monogamer\\obj\\",
+      "outputPath": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
