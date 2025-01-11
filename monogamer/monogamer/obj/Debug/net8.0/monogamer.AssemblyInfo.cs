@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("monogamer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f7d1902821936d61b9b31c83c50ed784a1b8314")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53956d3b305e5865c873462399748459efde509a")]
 [assembly: System.Reflection.AssemblyProductAttribute("monogamer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("monogamer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

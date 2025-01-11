@@ -11,16 +11,15 @@ using Microsoft.Xna.Framework.Input;
 // Interface for character objects
 public interface ICharacter
 {
-    Vector2 Position { get; set; } // Property for character position
-
-    Rectangle collsion { get; set; } // Property for character collision rectangle
-    void Draw(SpriteBatch spriteBatch); // Method to draw the character
+    Vector2 Position { get; set; }
+    List<Rectangle> Colliders { get; set; }
+    void Draw(SpriteBatch spriteBatch);
 }
 
 // Class for moveable sprites implementing ICharacter interface
 public class moveableSprite : ICharacter
 {
-    public Rectangle collision; // Collision rectangle for the sprite
+    public Rectangle collider; // Collision rectangle for the sprite
     public string name = "staticSprite"; // Name of the sprite
     public Texture2D sprite; // Texture of the sprite
     public Vector2 position = new Vector2(50, 50); // Initial position of the sprite
@@ -41,12 +40,15 @@ public class moveableSprite : ICharacter
         set => position = value;
     }
 
-    // Explicit interface implementation for collision property
-    Rectangle ICharacter.collsion
+    // Property for collision rectangle
+    public Rectangle collision
     {
-        get => collision;
-        set => collision = value;
+        get => collider;
+        set => collider = value;
     }
+
+    // Property for colliders list
+    public List<Rectangle> Colliders { get; set; } = new List<Rectangle>();
 
     // Method to draw the sprite
     public void Draw(SpriteBatch spriteBatch)
