@@ -2,20 +2,21 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
+
 namespace monogamer.classes.components
 {
     public class AnimatableSpriteComp
     {
-        private ICharacter _character;
-        private Texture2D _texture;
-        private int _rows;
-        private int _columns;
-        private SpriteBatch _spriteBatch;
-        private int _currentFrame;
-        private int _totalFrames;
-        private int _frameCount;
-        private float _timePerFrame;
-        private float _timeSinceLastFrame;
+        private ICharacter _character; // Reference to the character object
+        private Texture2D _texture; // Texture containing the sprite sheet
+        private int _rows; // Number of rows in the sprite sheet
+        private int _columns; // Number of columns in the sprite sheet
+        private SpriteBatch _spriteBatch; // SpriteBatch used for drawing
+        private int _currentFrame; // Current frame of the animation
+        private int _totalFrames; // Total number of frames in the sprite sheet
+        private int _frameCount; // Number of frames in the animation
+        private float _timePerFrame; // Time per frame based on animation speed
+        private float _timeSinceLastFrame; // Time elapsed since the last frame change
 
         public AnimatableSpriteComp(ICharacter character, Texture2D texture, int rows, int columns, SpriteBatch spriteBatch, float animationSpeed, int frameCount)
         {
@@ -33,11 +34,14 @@ namespace monogamer.classes.components
 
         public void Update(GameTime gameTime)
         {
+            // Update the time since the last frame
             _timeSinceLastFrame += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+            // Check if it's time to advance to the next frame
             if (_timeSinceLastFrame >= _timePerFrame)
             {
                 _currentFrame++;
+                // Loop back to the first frame if we've reached the end
                 if (_currentFrame >= _frameCount)
                 {
                     _currentFrame = 0;
@@ -48,14 +52,18 @@ namespace monogamer.classes.components
 
         public void Draw()
         {
+            // Calculate the width and height of a single frame
             int width = _texture.Width / _columns;
             int height = _texture.Height / _rows;
+            // Determine the row and column of the current frame
             int row = _currentFrame / _columns;
             int column = _currentFrame % _columns;
 
+            // Create source and destination rectangles for drawing
             Rectangle sourceRectangle = new Rectangle(width * column, height * row, width, height);
             Rectangle destinationRectangle = new Rectangle((int)_character.Position.X, (int)_character.Position.Y, width, height);
 
+            // Draw the current frame
             _spriteBatch.Draw(_texture, destinationRectangle, sourceRectangle, Color.White);
         }
     }

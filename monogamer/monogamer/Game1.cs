@@ -34,6 +34,7 @@ namespace monogamer
             base.Initialize();
 
             // Load ball texture and set initial properties
+            ball.name = "player";
             ball.sprite = Content.Load<Texture2D>("ball");
             ball.position = new Vector2(100, 100);
             ball.size = 1;
@@ -88,12 +89,16 @@ namespace monogamer
                 Exit();
 
             topDownMovementComp movementComp = new topDownMovementComp(5f);
+            RigidBodyComp rigidBodyComp = new RigidBodyComp();
+            rigidBodyComp.addComponent(ball3, true, 0.1f, 1, 0.05f);
 
             movementComp.addComponent(ball);
 
             // Update colliders based on the new position (increased the size by 55 because the current size is too small)
             ball.Colliders[0] = new Rectangle((int)ball.position.X, (int)ball.position.Y, (int)ball2.size + 55, (int)ball2.size + 55);
             ball.Colliders[1] = new Rectangle((int)ball.position.X, (int)ball.position.Y, (int)ball3.size + 55, (int)ball3.size + 55);
+
+            ball3.Colliders[0] = new Rectangle((int)ball3.position.X, (int)ball3.position.Y, (int)ball3.size + 55, (int)ball3.size + 55);
 
             others = new ICharacter[] { ball2, ball3 };
 
