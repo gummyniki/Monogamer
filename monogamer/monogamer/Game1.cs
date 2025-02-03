@@ -6,6 +6,8 @@ using monogamer.classes.components;
 using monogamer.classes.objects;
 using System;
 using System.Collections.Generic;
+using MonoGame.ImGuiNet;
+using ImGuiNET;
 
 namespace monogamer
 {
@@ -13,14 +15,23 @@ namespace monogamer
     {
         private GraphicsDeviceManager _graphics;
         public SpriteBatch _spriteBatch;
+        private ImGuiRenderer _imGuiRenderer;
 
         moveableSprite ball = new moveableSprite();
         moveableSprite ball2 = new moveableSprite();
         moveableSprite ball3 = new moveableSprite();
+
+        topDownMovementComp movementComp = new topDownMovementComp(5f);
+        RigidBodyComp rigidBodyComp = new RigidBodyComp();
+        RectangleCollisionComp ballCollision = new RectangleCollisionComp();
         Text text = new Text();
 
         AnimatableSpriteComp ballAnimation;
         ICharacter[] others;
+
+        Debug debug = new Debug();
+
+        ICharacter[] sceneObjects;
 
         public Game1()
         {
@@ -33,6 +44,9 @@ namespace monogamer
         {
             base.Initialize();
 
+            _imGuiRenderer = new ImGuiRenderer(this);
+            _imGuiRenderer.RebuildFontAtlas();
+
             // Load ball texture and set initial properties
             ball.name = "player";
             ball.sprite = Content.Load<Texture2D>("ball");
@@ -41,36 +55,41 @@ namespace monogamer
             ball.debugFont = Content.Load<SpriteFont>("testFont");
 
             ball.Colliders = new List<Rectangle>
-            {
-                new Rectangle((int)ball.position.X, (int)ball.position.Y, 50, 50),
-                new Rectangle((int)ball.position.X + 50, (int)ball.position.Y + 50, 50, 50)
-            };
+                {
+                    new Rectangle((int)ball.position.X, (int)ball.position.Y, 50, 50),
+                    new Rectangle((int)ball.position.X + 50, (int)ball.position.Y + 50, 50, 50)
+                };
 
             // Load ball2 texture and set initial properties
             ball2.sprite = Content.Load<Texture2D>("ball");
             ball2.position = new Vector2(200, 200);
             ball2.size = 1;
+            ball2.name = "staticsprite1";
             ball2.debugFont = Content.Load<SpriteFont>("testFont");
 
             ball2.Colliders = new List<Rectangle>
-            {
-                new Rectangle((int)ball2.position.X, (int)ball2.position.Y, 50, 50)
-            };
+                {
+                    new Rectangle((int)ball2.position.X, (int)ball2.position.Y, 50, 50)
+                };
 
             // Load ball3 texture and set initial properties
             ball3.sprite = Content.Load<Texture2D>("ball");
             ball3.position = new Vector2(300, 300);
             ball3.size = 1;
+            ball3.name = "staticsprite2";
             ball3.debugFont = Content.Load<SpriteFont>("testFont");
 
             ball3.Colliders = new List<Rectangle>
-            {
-                new Rectangle((int)ball3.position.X, (int)ball3.position.Y, 50, 50)
-            };
+                {
+                    new Rectangle((int)ball3.position.X, (int)ball3.position.Y, 50, 50)
+                };
 
             // Load text font and set initial properties
             text.font = Content.Load<SpriteFont>("testFont");
             text.Position = new Vector2(200, 200);
+
+            // Initialize sceneObjects after all objects are initialized
+            sceneObjects = new ICharacter[] { ball, ball2, ball3 };
 
             // Initialize animation component
             //Texture2D ballTexture = Content.Load<Texture2D>("ball_spritesheet");
@@ -88,8 +107,7 @@ namespace monogamer
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            topDownMovementComp movementComp = new topDownMovementComp(5f);
-            RigidBodyComp rigidBodyComp = new RigidBodyComp();
+            
             rigidBodyComp.addComponent(ball3, true, 0.1f, 1, 0.05f);
 
             movementComp.addComponent(ball);
@@ -103,7 +121,7 @@ namespace monogamer
             others = new ICharacter[] { ball2, ball3 };
 
             // Create collision components for ball and others
-            RectangleCollisionComp ballCollision = new RectangleCollisionComp();
+            
             ballCollision.addComponent(ball, others);
 
             // Check for collision and update text accordingly
@@ -132,22 +150,32 @@ namespace monogamer
             // Draw ball animation
             //ballAnimation.Draw();
 
-
             ball.Draw(_spriteBatch);
-            ball.activateDebug(_spriteBatch);
 
-            // Draw ball2 and activate debug mode
+            // Draw ball2
             ball2.Draw(_spriteBatch);
-            ball2.activateDebug(_spriteBatch);
 
-            // Draw ball3 and activate debug mode
+            // Draw ball3
             ball3.Draw(_spriteBatch);
-            ball3.activateDebug(_spriteBatch);
 
             // Draw text
             text.Draw(_spriteBatch);
 
             _spriteBatch.End();
+
+            // Start ImGui frame
+            _imGuiRenderer.BeginLayout(gameTime);
+
+            // Create ImGui window
+            ImGui.Begin("monogamer");
+
+            debug.startDebugging(DebugTypes.OBJECTS, sceneObjects);
+            debug.startDebugging(DebugTypes.EXTRAS, sceneObjects);
+
+            ImGui.End();
+
+            // End ImGui frame
+            _imGuiRenderer.EndLayout();
 
             base.Draw(gameTime);
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Net.Mime;
 using System.Text;
@@ -14,6 +15,15 @@ public interface ICharacter
     Vector2 Position { get; set; }
     List<Rectangle> Colliders { get; set; }
     void Draw(SpriteBatch spriteBatch);
+
+    string Name { get; set; }
+    Texture2D Sprite { get; set; }
+
+    string[] components { get; set; }
+
+
+
+
 }
 
 // Class for moveable sprites implementing ICharacter interface
@@ -47,6 +57,23 @@ public class moveableSprite : ICharacter
         set => collider = value;
     }
 
+    // Property for sprite name
+    public string Name
+    {
+        get => name;
+        set => name = value;
+    }
+
+    public Texture2D Sprite
+
+    {
+        get => sprite;
+        set => sprite = value;
+    }
+
+    public string[] components { get; set; } = new string[0];
+
+
     // Property for colliders list
     public List<Rectangle> Colliders { get; set; } = new List<Rectangle>();
 
@@ -54,12 +81,6 @@ public class moveableSprite : ICharacter
     public void Draw(SpriteBatch spriteBatch)
     {
         spriteBatch.Draw(sprite, position, null, color, rotation, origin, size, spriteEffects, layerDepth);
-    }
-
-    // Method to activate debug mode and draw debug information
-    public void activateDebug(SpriteBatch spriteBatch)
-    {
-        spriteBatch.DrawString(debugFont, name + "\n" + position + "\n", position + new Vector2(0, -50), Color.Black);
     }
 }
 

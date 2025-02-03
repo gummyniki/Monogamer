@@ -4,14 +4,32 @@ using Microsoft.Xna.Framework;
 
 namespace monogamer.classes.components
 {
-    public class RectangleCollisionComp
+    public class RectangleCollisionComp : Component
     {
+
+        public string Name { get; set; } = nameof(RectangleCollisionComp);
+
         // Flag to indicate if a collision has occurred
         public bool isCollided = false;
+
+        private bool hasAdded = false;
 
         // Method to add a collision component to a character
         public void addComponent(ICharacter character, ICharacter[] others)
         {
+            // Create an instance of the functions class
+            functions func = new functions();
+
+            
+
+            // Add the component name to the character's components list
+
+            if (!hasAdded)
+            {
+                character.components = func.AddElementToArray(character.components, Name);
+                hasAdded = true;
+            }
+
             foreach (var collider in character.Colliders)
             {
                 foreach (var other in others)
@@ -38,5 +56,8 @@ namespace monogamer.classes.components
         {
             return isCollided;
         }
+
+        // Implementing the interface method
+        
     }
 }

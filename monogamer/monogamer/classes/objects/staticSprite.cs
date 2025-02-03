@@ -64,13 +64,7 @@ namespace monogamer.classes.objects
             _spritebatch.Draw(sprite, SpritePosition, null, color, rotation, origin, size, spriteEffects, layerDepth);
         }
 
-        // Method to activate debug mode and draw debug information
-        public void activateDebug(SpriteBatch spriteBatch) // run the function in your game loop to activate debug mode
-        {
-            if (debug)
-            {
-                spriteBatch.DrawString(debugFont, name + "\n" + SpritePosition + "\n", SpritePosition + new Vector2(0, -50), Color.Black);
-            }
-        }
+
+        
     }
 }

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\components\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\components\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\objects\\staticsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\objects\\staticsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\objects\\moveablesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\objects\\moveablesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\components\\rectanglecollisioncomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,6 +35,14 @@
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\components\\animatablespritecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\imguirenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\imguirenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\drawvertdeclaration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\drawvertdeclaration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\components\\rigidbodycomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\components\\rigidbodycomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,16 +51,27 @@
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\components\\topdownmovementcomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\objects\\statictext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\objects\\statictext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4A0C5-4C96-4446-B61A-73E704909508}|Solution Items{3FD4A0C5-4C96-4446-B61A-73E704909508}|C:\\Users\\gummy\\Downloads\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet\\ImGuiRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\monogamer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\monogamer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\classes\\objects\\moveablesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\classes\\objects\\moveablesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|c:\\users\\gummy\\onedrive\\documents\\github\\monogamer\\monogamer\\monogamer\\content\\ball_spritesheet.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{45C8300E-41A7-422B-A0A8-0557C70783E4}|monogamer\\monogamer.csproj|solutionrelative:monogamer\\content\\ball_spritesheet.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,38 +89,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Game1.cs",
-              "RelativeDocumentMoniker": "monogamer\\Game1.cs",
-              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Game1.cs*",
-              "RelativeToolTip": "monogamer\\Game1.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAADgvyQAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "moveableSprite.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\moveableSprite.cs",
+              "RelativeDocumentMoniker": "monogamer\\classes\\objects\\moveableSprite.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\moveableSprite.cs",
+              "RelativeToolTip": "monogamer\\classes\\objects\\moveableSprite.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwE0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:01:54.342Z",
+              "WhenOpened": "2025-01-11T11:17:31.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\app.manifest",
-              "RelativeDocumentMoniker": "monogamer\\app.manifest",
-              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\app.manifest",
-              "RelativeToolTip": "monogamer\\app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-01-11T19:01:53.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "RigidBodyComp.cs",
               "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\RigidBodyComp.cs",
               "RelativeDocumentMoniker": "monogamer\\classes\\components\\RigidBodyComp.cs",
               "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\RigidBodyComp.cs",
               "RelativeToolTip": "monogamer\\classes\\components\\RigidBodyComp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T18:58:42.973Z",
               "EditorCaption": ""
@@ -93,50 +116,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AnimatableSpriteComp.cs",
-              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\AnimatableSpriteComp.cs",
-              "RelativeDocumentMoniker": "monogamer\\classes\\components\\AnimatableSpriteComp.cs",
-              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\AnimatableSpriteComp.cs",
-              "RelativeToolTip": "monogamer\\classes\\components\\AnimatableSpriteComp.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDYAAAAjAAAAAAAAAA==",
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Game1.cs",
+              "RelativeDocumentMoniker": "monogamer\\Game1.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Game1.cs",
+              "RelativeToolTip": "monogamer\\Game1.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAQwLYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:15:14.282Z",
+              "WhenOpened": "2025-01-11T19:01:54.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\Component.cs",
+              "RelativeDocumentMoniker": "monogamer\\classes\\components\\Component.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\Component.cs",
+              "RelativeToolTip": "monogamer\\classes\\components\\Component.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:15:43.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "topDownMovementComp.cs",
               "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\topDownMovementComp.cs",
               "RelativeDocumentMoniker": "monogamer\\classes\\components\\topDownMovementComp.cs",
               "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\topDownMovementComp.cs",
               "RelativeToolTip": "monogamer\\classes\\components\\topDownMovementComp.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T11:17:46.556Z"
+              "WhenOpened": "2025-01-11T11:17:46.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "functions.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\functions.cs",
+              "RelativeDocumentMoniker": "monogamer\\classes\\functions.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\functions.cs",
+              "RelativeToolTip": "monogamer\\classes\\functions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:46:19.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImGuiRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\ImGuiRenderer.cs",
+              "RelativeDocumentMoniker": "monogamer\\ImGuiRenderer.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\ImGuiRenderer.cs",
+              "RelativeToolTip": "monogamer\\ImGuiRenderer.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwEYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T13:29:27.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Debug.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\Debug.cs",
+              "RelativeDocumentMoniker": "monogamer\\classes\\Debug.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\Debug.cs",
+              "RelativeToolTip": "monogamer\\classes\\Debug.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwEgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T16:15:05.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RectangleCollisionComp.cs",
               "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\RectangleCollisionComp.cs",
               "RelativeDocumentMoniker": "monogamer\\classes\\components\\RectangleCollisionComp.cs",
               "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\RectangleCollisionComp.cs",
               "RelativeToolTip": "monogamer\\classes\\components\\RectangleCollisionComp.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwA4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T11:17:43.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "staticSprite.cs",
               "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\staticSprite.cs",
               "RelativeDocumentMoniker": "monogamer\\classes\\objects\\staticSprite.cs",
-              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\staticSprite.cs*",
-              "RelativeToolTip": "monogamer\\classes\\objects\\staticSprite.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwEQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\staticSprite.cs",
+              "RelativeToolTip": "monogamer\\classes\\objects\\staticSprite.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T11:17:35.72Z",
               "EditorCaption": ""
@@ -144,18 +220,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "moveableSprite.cs",
-              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\moveableSprite.cs",
-              "RelativeDocumentMoniker": "monogamer\\classes\\objects\\moveableSprite.cs",
-              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\moveableSprite.cs",
-              "RelativeToolTip": "monogamer\\classes\\objects\\moveableSprite.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwEIAAAAAAAAAAAAAAA==",
+              "Title": "AnimatableSpriteComp.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\AnimatableSpriteComp.cs",
+              "RelativeDocumentMoniker": "monogamer\\classes\\components\\AnimatableSpriteComp.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\components\\AnimatableSpriteComp.cs",
+              "RelativeToolTip": "monogamer\\classes\\components\\AnimatableSpriteComp.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T11:17:31.761Z"
+              "WhenOpened": "2025-01-11T16:15:14.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "DrawVertDeclaration.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\DrawVertDeclaration.cs",
+              "RelativeDocumentMoniker": "monogamer\\DrawVertDeclaration.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\DrawVertDeclaration.cs",
+              "RelativeToolTip": "monogamer\\DrawVertDeclaration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:09:00.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "staticText.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\staticText.cs",
+              "RelativeDocumentMoniker": "monogamer\\classes\\objects\\staticText.cs",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\classes\\objects\\staticText.cs",
+              "RelativeToolTip": "monogamer\\classes\\objects\\staticText.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T16:14:20.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImGuiRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\gummy\\Downloads\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet\\ImGuiRenderer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet\\ImGuiRenderer.cs",
+              "ToolTip": "C:\\Users\\gummy\\Downloads\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet\\ImGuiRenderer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet-main\\MonoGame.ImGuiNet\\ImGuiRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T13:29:40.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\app.manifest",
+              "RelativeDocumentMoniker": "monogamer\\app.manifest",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\app.manifest",
+              "RelativeToolTip": "monogamer\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-01-11T19:01:53.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "monogamer",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\monogamer.csproj",
+              "RelativeDocumentMoniker": "monogamer\\monogamer.csproj",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\monogamer.csproj",
+              "RelativeToolTip": "monogamer\\monogamer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T13:21:01.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Program.cs",
               "RelativeDocumentMoniker": "monogamer\\Program.cs",
@@ -163,7 +304,20 @@
               "RelativeToolTip": "monogamer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:58:12.412Z"
+              "WhenOpened": "2025-01-04T09:58:12.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ball_spritesheet.png - PNG [2000x475, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Content\\ball_spritesheet.png",
+              "RelativeDocumentMoniker": "monogamer\\Content\\ball_spritesheet.png",
+              "ToolTip": "C:\\Users\\gummy\\OneDrive\\Documents\\GitHub\\Monogamer\\monogamer\\monogamer\\Content\\ball_spritesheet.png - PNG [2000x475, 32 bit, PNG]",
+              "RelativeToolTip": "monogamer\\Content\\ball_spritesheet.png - PNG [2000x475, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-21T18:30:49.103Z",
+              "EditorCaption": " - PNG [2000x475, 32 bit, PNG]"
             }
           ]
         }

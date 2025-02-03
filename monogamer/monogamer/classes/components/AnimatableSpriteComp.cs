@@ -1,11 +1,15 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using monogamer.classes.components;
+using monogamer.classes.objects;
 
 
 namespace monogamer.classes.components
 {
-    public class AnimatableSpriteComp
+    public class AnimatableSpriteComp : Component
     {
         private ICharacter _character; // Reference to the character object
         private Texture2D _texture; // Texture containing the sprite sheet
@@ -18,8 +22,27 @@ namespace monogamer.classes.components
         private float _timePerFrame; // Time per frame based on animation speed
         private float _timeSinceLastFrame; // Time elapsed since the last frame change
 
+        
+        public string Name { get; set; } = nameof(AnimatableSpriteComp);
+
+        private bool hasAdded = false;
+
         public AnimatableSpriteComp(ICharacter character, Texture2D texture, int rows, int columns, SpriteBatch spriteBatch, float animationSpeed, int frameCount)
         {
+            // Create an instance of the functions class
+            functions func = new functions();
+
+            
+
+            // Add the component name to the character's components list
+
+            if (!hasAdded)
+            {
+                character.components = func.AddElementToArray(character.components, Name);
+                hasAdded = true;
+            }
+            
+
             _character = character;
             _texture = texture;
             _rows = rows;
@@ -67,4 +90,6 @@ namespace monogamer.classes.components
             _spriteBatch.Draw(_texture, destinationRectangle, sourceRectangle, Color.White);
         }
     }
-}
+
+    
+    }

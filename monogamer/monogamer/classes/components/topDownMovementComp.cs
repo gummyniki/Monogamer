@@ -9,14 +9,34 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-
 namespace monogamer.classes.components
 {
-    public class topDownMovementComp(float speed)
+    public class topDownMovementComp : Component
     {
+        private float speed;
+        public string Name { get; set; } = nameof(topDownMovementComp);
+
+        private bool hasAdded = false;
+
+        // Constructor to initialize the speed
+        public topDownMovementComp(float speed)
+        {
+            this.speed = speed;
+        }
+
         // Method to add movement component to a character
         public void addComponent(ICharacter character)
         {
+            // Create an instance of the functions class
+            functions func = new functions();
+
+            // Add the component name to the character's components list
+            if (!hasAdded)
+            {
+                character.components = func.AddElementToArray(character.components, Name);
+                hasAdded = true;
+            }
+
             // Get the current position of the character
             Microsoft.Xna.Framework.Vector2 position = character.Position;
 
