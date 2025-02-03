@@ -1,6 +1,6 @@
 An addon for monogame that adds a component system, similar to unity.
 
-to acces the setup project, open the .sln file using visual studio.
+to acces the example project, open the .sln file using visual studio.
 
 to add the system to your existing project, copy the "classes" folder into your project.
 
